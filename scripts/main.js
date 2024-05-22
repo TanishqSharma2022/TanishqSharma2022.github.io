@@ -750,11 +750,11 @@ function council_toggle(n){
             boxes[1].style.display = "flex";
             logo.src = "./images/esic.png";
             content.innerHTML = "<ul><li>As the name suggests, we are responsible for introducing new social initiatives and environmental policies and helping the community implement them.</li><li>  A part of our work includes spreading awareness about modern social approaches.</li><li> We also try and bring the most sustainable ways of living to the IISERB community. </li></ul>";
-
+            weblink.setAttribute("href", "https://sites.google.com/iiserb.ac.in/humansofiiserb/home");
             boxes[0].querySelector("img").src = "./images/clubs/humansofiiserb.jpg";
             boxes[0].querySelector("#club_name").innerHTML = "Humans of IISER Bhopal";
 
-            document.querySelector("#sqr1").setAttribute("href", "https://www.instagram.com/humansofiiserb");
+            document.querySelector("#sqr1").setAttribute("href", "https://sites.google.com/iiserb.ac.in/humansofiiserb/home");
 
             // boxes[0].querySelector("#member_name").innerHTML = "Chinmayee Goswami `20 <br> Animesh Patra `20";
           //  weblink.setAttribute("href", "https://cs2.iiserb.ac.in/activities/prayaas.php");
