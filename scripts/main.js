@@ -515,7 +515,7 @@ function council_toggle(n){
             content.innerHTML = "<ul><li>Provide financial resources and administrative support for Programming, Photography and Gaming Club.</li><li>Technical support in conducting student elections, and event conduction for other councils and clubs.</li><li>Host Armageddon: A 3 day gaming and techno fest with photowalks, programming competitions and E-Sports tournaments in 8 games. We release really cool merch that you can buy before the fest.</li></ul>";
             boxes[0].style.display = "flex";
 
-            boxes[0].querySelector("img").src = "./images/clubs/coding.jpg";
+            boxes[0].querySelector("img").src = "./images/clubs/cc.png";
             boxes[0].querySelector("#club_name").innerHTML = "CyberHeathens (Programming Club)";
             document.querySelector("#sqr1").setAttribute("href", "https://www.instagram.com/cnc_programming_division");
 
@@ -531,8 +531,8 @@ function council_toggle(n){
             // boxes[0].querySelector("#member_name").innerHTML = "Chinmayee Goswami `20 <br> Animesh Patra `20";
             boxes[2].style.display="flex";
 
-            boxes[2].querySelector("img").src = "./images/clubs/photography.png";
-            boxes[2].querySelector("#club_name").innerHTML = "Photography Club)";
+            boxes[2].querySelector("img").src = "./images/clubs/pc.png";
+            boxes[2].querySelector("#club_name").innerHTML = "Photography Club";
             document.querySelector("#sqr3").setAttribute("href", "https://www.instagram.com/claude__glass");
 
 
